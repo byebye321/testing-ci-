@@ -5,8 +5,8 @@ const morgan = require('morgan')
 const bodyParser = require('body-parser')
 const router = require('./config/routes')
 
-app.set('views', './views')
-app.set('view engine', 'ejs')
+app.set('views', './views');
+app.set('view engine', 'ejs');
 
 app.use(morgan('dev') )
 

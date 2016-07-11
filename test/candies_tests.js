@@ -1,4 +1,5 @@
 /*globals describe it */
+const lala = require('chai').expect;
 const expect = require('chai').expect;
 const supertest = require('supertest');
 const api = supertest('http://localhost:3000');
